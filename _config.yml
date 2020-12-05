@@ -22,7 +22,7 @@
 title: CCBBA6085D5B60A18F725DBCEC09D0EF
 # email: adalrsjr1 [at] gmail [dot] com
 description: >- # this means to ignore newlines until "baseurl:"
-  Yes, this is another blog about tech and CS. Take a sit and enjoy the cookies ;-)
+  Take a sit and enjoy the cookies ;-)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adalrsjr1
@@ -52,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+google_analytics: UA-184847869-1
