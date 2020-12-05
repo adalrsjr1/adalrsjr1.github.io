@@ -3,14 +3,14 @@ layout: post
 title: "What is Computer Science?"
 ---
 
-If you google "What is Computer Science?", probably you will find out several
-posts describing Computer Science (CS) in terms of computers and programs.
-However it is not entirely true. In fact, CS is a bad name for this knowledge
-area, since it put so much attention on computers and let other important
-concepts aside. [Edsger
-Dijsktra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) once saids "Computers
-are for CS as telescopes are for astronomy". In this text I will define CS in
-terms of more meaningful terms than computers and computation.
+If you google for "What is Computer Science?", you will probably find out
+several posts describing Computer Science (CS) in terms of computers and
+programs.  However it is not entirely true. In fact, CS is a bad name for this
+knowledge area, since it put so much attention on computers and let other
+important concepts aside. [Edsger
+Dijsktra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) once saids
+"Computers are for CS as telescopes are for astronomy". In this text I will
+define CS a more meaningful way than using computers and computation.
 
 # History
 
@@ -26,14 +26,14 @@ have no idea what it is, check this
 Created in 18th-century by Jean-Charles Jacquard, the mechanical loom is a
 machine where its operator uses several punched cards to control the cumbersome
 mechanism to interleave the strings into clothes. The punched cards tell to the
-machine how and which strings should be interleaved to create patterns on the
-clothes. So, we also have some kind of computation here, as this [adorable
-grandma](https://www.youtube.com/watch?v=MQzpLLhN0fY) confirms to us. The
-repeated process of interleaving the strings is automatized through the
-_program_ _written_ in the punched card language. This my friends is the essence
-of computing.
+machine how and which strings should be interleaved to create patterns onto the
+fabric. So, we also have some kind of computation here, as this [adorable
+grandma](https://www.youtube.com/watch?v=MQzpLLhN0fY) confirms it to us. The
+repeated process of interleaving the strings is automatized through the _program
+written_ in the punched card language. And this my friends, is the essence of
+computing.
 
-> Computers are machines guide by programs to do some task.
+> Computers are machines guided by programs to do some task.
 
 Another example of unconventional computer is a simple mechanical clock. Yes,
 any analogical clock or watch is also a computer.
@@ -46,19 +46,20 @@ is the automation and what is the program into a clock?
 The first is easy, a clock computes how time pass. Before the clocks, the people
 should look to the sky and measure the position of the stars to know what time
 it was. Remember, the Sun is also a star ;-) So, they figured out that the stars
-move over the sky and this movement could be measured. Doing this repeatedly the
-human being started to understand and measure the time. Ok, but how this history
+move over the sky and this movement could be measured. Doing this repeatedly,
+someone has started to understand and measure the time. Ok, but how this history
 fits with our definition? After centuries of observation, Christiaan Huygens
 invented the first mechanical clock. Based on gears rotations and spiral
-springs, Huygens mapped the stars motion into pointers rotations. Well, it
-wasn't a directly mapping, he used the rotation physics to measure how long a
-gear does a revolution and doing some math it could model seconds to years using
-gears. However, using stars is more poetic, so lets pretend that was from stars
-to gears. Hence, the Huygens' clock measure mechanically and repeatedly how the
-time goes.
+springs, Huygens mapped the stars motion into pointers rotations, quite neat!
+Well, it wasn't a directly mapping. He used the rotation physics to calculates
+how long for a gear to do a revolution, and using some
+[mathmagic](https://www.youtube.com/watch?v=U_ZHsk0-eF0) it could model seconds
+to years using gears. However, using stars is more poetic, so lets pretend that
+was from stars to gears. Hence, the Huygens' clock can measure mechanically and
+repeatedly how the time goes.
 
-Now we have answered what is the clock's computation, we have to answer how it
-can be programmed. To be computer, the device must be programmed, and by
+Now we have answered what is the clock's computation, we have to answer: how it
+can be programmed. To be a computer, the device must be programmed, and by
 programming I mean, pass a list of instructions so the device (computer) can
 repeat indefinitely [or not](https://en.wikipedia.org/wiki/Halting_problem).
 Whit this new statement our abacus from the beginning of this section doesn't
@@ -70,10 +71,50 @@ combined with springs give to the clock a behavior - measuring time. A clock
 master can make clocks to measure from seconds to years just playing around
 different gears combinations.
 
-abstraction and language
+As we can see, none of these examples are _computers_ as we know, but they do
+computations and there are Computer Science on these stuff.
 
-As we can see, none of these examples are computers but they do computations and
-there are Computer Science on these stuff. 
+What are the common point here that links these devices, computers, and computer
+science?! The answer is _abstraction_!
+
+# Abstraction: the art of hidden unnecessary stuff.
+
+[Abstraction](https://en.wikipedia.org/wiki/Abstraction) is the process of take
+out all unnecessary details from something, so that you can analyze only the
+relevant stuff from a given situation. Or in simple words, abstraction is when
+you ask for a glass of water and it doesn't matter how it is the glass you are
+going to be served with.
+
+Another classical example about abstraction is a house's blueprint, or any other
+blueprint. That sheet with some lines and number represents a house, it has all
+useful information need to build a house up, but there is no details about what
+is the color for painting a wall. The devil lives on details, and for
+understanding something you not really need go deep into the details. Removing
+all unnecessary details makes much more easier to understand the core of the
+problem you are aiming to solve. And once you have a reduced scope for a problem
+is much easier you come up with a solution.
+
+In CS all disciplines are about studying abstractions for solving problems. In
+programing you learn how abstract problems in languages terms, in systems (OS,
+networks, distributed systems, etc.) you learn how abstract problems in
+building-blocks. Software engineering, abstraction about governance  of software
+problems, and so on.
+
+Going back to our examples, the mechanical loom is a tool that executes
+instructions to solve a problem, draw patterns in fabrics. What are the
+abstraction there? To answer it we have to deep understand the problem we are
+aiming to solve with a mechanical loom.
+
+## The problem
+
+The _raison d'etre_ of a mechanical loom is transform holes in a punch card into
+movements to weave strings and create fabrics or a draw a pattern in a fabric.
+Doing this analysis, what is problem and which is the reasonable abstraction
+resolve this problem is a simpler way?
+
+There are infinite ways to weave strings. 
+
+abstraction and language
 
 A little of context...
 how computer science arose?
